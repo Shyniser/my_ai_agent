@@ -10,3 +10,4 @@ langchain-huggingface
 langchain-core
 langchain-community
 pysqlite3-binary
+langchain
