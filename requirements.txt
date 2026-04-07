@@ -12,3 +12,4 @@ langchain-core
 langchain-community
 protobuf==3.20.3
 edge-tts
+pygame
