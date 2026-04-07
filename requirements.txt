@@ -7,3 +7,5 @@ openpyxl
 trafilatura
 langchain-chroma
 langchain-huggingface
+langchain-core
+langchain-community
