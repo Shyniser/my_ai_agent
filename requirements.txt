@@ -1,0 +1,9 @@
+streamlit
+langchain-openai
+langgraph
+tavily-python
+pandas
+openpyxl
+trafilatura
+langchain-chroma
+langchain-huggingface
