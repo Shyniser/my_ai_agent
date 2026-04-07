@@ -3,7 +3,7 @@ import pandas as pd
 import asyncio
 import datetime
 from dotenv import load_dotenv
-from langgraph.prebuilt import create_agent
+from langchain.agents import create_agent
 from langchain.tools import tool
 from tavily import TavilyClient
 from typing import Dict, Any
