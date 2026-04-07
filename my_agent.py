@@ -138,7 +138,7 @@ full_prompt = system_prompt + f"\n当前时间: {current_time_str} {weekday}\n�
 agent = create_react_agent(
         "deepseek-chat",
         tools=[ web_search, query_knowledge_base,excel_smart_reader],
-        full_prompt
+        prompt=full_prompt
     )
 if __name__ == "__main__":
     import asyncio
