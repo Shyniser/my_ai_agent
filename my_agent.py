@@ -3,7 +3,7 @@ import pandas as pd
 import asyncio
 import datetime
 from dotenv import load_dotenv
-from langchain.agents import create_agent
+from langgraph.prebuilt import create_react_agent
 from langchain.tools import tool
 from tavily import TavilyClient
 from typing import Dict, Any
@@ -135,7 +135,7 @@ full_prompt = system_prompt + f"\n当前时间: {current_time_str} {weekday}\n�
 
 
 
-agent = create_agent(
+agent = create_react_agent(
         "deepseek-chat",
         tools=[ web_search, query_knowledge_base,excel_smart_reader],
         state_modifier=full_prompt
